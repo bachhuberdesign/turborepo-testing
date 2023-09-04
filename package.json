@@ -14,8 +14,10 @@
   },
   "name": "turbotest",
   "packageManager": "yarn@3.6.3",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ]
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "packages/*"
+    ]
+  }
 }
